@@ -1,51 +1,12 @@
-# Feather-Studio-1.0.0
-a music creator made by Feather Studio Music, or the owner of Kipdy (Kipdy Trango)
-Please make sure you have python 3.13+ and NumPy installed, or it will not work
-# Feather Studio
+***Hello Guys, To run this project you must have the following installed:***
+**Python 3**(specifically **Python 3.13+** is recommended, along with its built-in Tkinter GUI library, which may require installing python3-tk separately on some Linux systems). Beyond Python itself, you will need to install the required third-party Python packages pygame and numpy (via pip install pygame numpy) to handle the audio engine, synthesis, and waveform processing. If you want to use all of the built-in extras, you should also install Pillow (pip install Pillow) to unlock the integrated Image Editor, sounddevice (pip install sounddevice, along with PortAudio on your system) to enable real microphone recording and testing, and FFmpeg on your computer if you wish to export your finished songs directly to MP3 or M4A formats instead of just WAV.
 
-A simple, dark-themed music maker built in Python.  
-Create tracks, drop in audio clips, play the piano, record notes, and export your song.
+Required & Optional Installations (For All Devices)
 
-![Feather Studio](https://via.placeholder.com/800x400/1a1a1a/ffffff?text=Feather+Studio)
-
-## Features
-
-- Multi-track timeline (8 tracks)
-- Import audio files or entire folders
-- Double-click to place clips on the timeline
-- Real waveforms on every audio clip
-- Colored tracks with darker waveform overlays
-- Click the timeline header to move the playhead
-- Play / Pause / Stop with keyboard shortcuts
-- Virtual piano (click to play)
-- Record mode – piano notes are placed on the timeline
-- Per-track volume faders and mute buttons
-- Select clips (Shift+click for multi-select, Ctrl+A for all)
-- Delete selected clips with Backspace or Delete
-- Export to **WAV**, **MP3**, or **M4A**
-- Dark FL Studio-inspired interface
-
-## Keyboard Shortcuts
-
-| Key          | Action              |
-|--------------|---------------------|
-| `Space`      | Play / Pause        |
-| `Shift + P`  | Stop                |
-| `1` – `8`    | Select track        |
-| `Ctrl + A`   | Select all clips    |
-| `Backspace` / `Delete` | Delete selected clips |
-| `Shift + Click` | Multi-select clips |
-
-## Requirements
-
-- Python 3.13 or newer
-- pygame
-- numpy
-
-Optional (for MP3 / M4A export):
-- FFmpeg
-
-## Installation
-
-```bash
-pip install pygame numpy
+• Python 3 (3.13+ recommended): The core programming language needed to execute the script on Windows, macOS, Linux, or BSD.
+• Tkinter (python3-tk): The standard GUI framework used to draw the windows and buttons (included automatically on Windows/macOS, but often installed via your package manager on Linux).
+• pygame (pip install pygame): The core audio engine used for playing tracks, notes, and metronome clicks.
+• numpy (pip install numpy): The math library used to synthesize piano/drum sounds, compute waveforms, and apply audio effects.
+• Pillow (pip install Pillow): Optional — Required if you want to launch and use the built-in Image Editor.
+• sounddevice & PortAudio (pip install sounddevice): Optional — Required if you want to record real audio from your microphone instead of using a placeholder clip.
+• FFmpeg (System tool): Optional — Required if you want to export your finished tracks as MP3 or M4A files instead of just WAV.
